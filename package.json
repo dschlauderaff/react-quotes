@@ -5,13 +5,13 @@
     "@rails/webpacker": "^3.2.0",
     "babel-preset-react": "^6.24.1",
     "coffeescript": "1.12.7",
+    "normalize.css": "^7.0.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "normalize.css": "^7.0.0"
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.11.0",
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
@@ -23,7 +23,8 @@
     "pre-commit": "^1.2.2",
     "prettier": "^1.7.3",
     "stylelint": "^8.1.1",
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^17.0.0",
+    "webpack-dev-server": "^2.11.0"
   },
   "scripts": {
     "lint-staged": "$(yarn bin)/lint-staged"

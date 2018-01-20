@@ -3,14 +3,14 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-// import QuotesDisplay from './QuotesDisplay'
+import QuotesDisplay from './QuotesDisplay'
 
 const App = (props) => (
   <Router>
     <div>
       <Route
         path='/'
-        //component={QuotesDisplay}
+        component={QuotesDisplay}
       />
     </div>
   </Router>
